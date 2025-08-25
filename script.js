@@ -1,4 +1,4 @@
-const API_KEY = "80975280f1d945c9de85c7933557656c"; // replace with your key
+const API_KEY = "replace with your key"; // replace with your key
 
 const getWeather = (city) => {
     cityName.innerHTML = city;
@@ -42,3 +42,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 getWeather("Delhi");
+
